@@ -23,10 +23,9 @@ public class MainMapMod : IScriptMod{
         ], allowPartialMatch: false);
 
         foreach(var token in tokens) {
-            yield return token;
-
             if (waiter.Check(token)) {
                 // $zones.get_node("tutorial_zone").visible = true
+                yield return new Token(TokenType.Newline, 1);
                 yield return new Token(TokenType.Dollar);
                 yield return new IdentifierToken("zones");
                 yield return new Token(TokenType.Period);
@@ -38,6 +37,11 @@ public class MainMapMod : IScriptMod{
                 yield return new IdentifierToken("visible");
                 yield return new Token(TokenType.OpAssign);
                 yield return new ConstantToken(new BoolVariant(true));
+
+                yield return new Token(TokenType.Newline, 1);
+            }
+            else{
+                yield return token;
             }
         }
     }
