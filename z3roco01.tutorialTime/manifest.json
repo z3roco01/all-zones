@@ -1,0 +1,10 @@
+{
+  "Id": "z3roco01.tutorialTime",
+  "AssemblyPath": "z3roco01.tutorialTime.dll",
+  "Metadata": {
+    "Name": "Tutorial Time",
+    "Author": "z3roco01",
+    "Version": "1.0.0",
+    "Description": "Makes the tutorial zone visible !!"
+  }
+}

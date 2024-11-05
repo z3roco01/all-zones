@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{ACB47CA2-F70C-4B1E-81A1-97642363766C}") = "z3roco01.allZones", "z3roco01.allZones\z3roco01.allZones.csproj", "{8F89540E-D2DF-4034-8B2B-5943F3B63B29}"
+Project("{ACB47CA2-F70C-4B1E-81A1-97642363766C}") = "z3roco01.tutorialTime", "z3roco01.tutorialTime\z3roco01.tutorialTime.csproj", "{8F89540E-D2DF-4034-8B2B-5943F3B63B29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

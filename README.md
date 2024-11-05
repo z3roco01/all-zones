@@ -1,2 +1,2 @@
-# all-zones
-webfishing mod that makes all zones ( including tutorial ) visible ! 
+# Tutorial Time
+webfishing mod that the tutorial zone visible ! 
